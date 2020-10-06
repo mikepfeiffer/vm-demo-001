@@ -1,5 +1,5 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Admin Username": {
@@ -8,7 +8,7 @@
         "Admin Password": {
             "reference": {
                 "keyVault": {
-                    "id": "/subscriptions/863a3a4a-74b0-480d-b14d-c2a0fd715473/resourceGroups/MyVaults/providers/Microsoft.KeyVault/vaults/cskv022282020"
+                    "id": "/subscriptions/863a3a4a-74b0-480d-b14d-c2a0fd715473/resourceGroups/IaC-Demo/providers/Microsoft.KeyVault/vaults/cs1006"
                 },
                 "secretName": "AdminPass"
             }
